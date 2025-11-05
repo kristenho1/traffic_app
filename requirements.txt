@@ -3,3 +3,4 @@ streamlit==1.45.1
 MAPIE==0.9.1
 scikit-learn==1.6.1
 matplotlib==3.10.0
+xgboost==2.1.1
