@@ -64,8 +64,8 @@ with st.sidebar.expander("**Option 2: Fill Out Form**"):
     predict_button = st.button("Submit Form Data", key="predict_sidebar")
 
 # Load the pre-trained model from the pickle file
-traffic_pickle = open('traffic.pickle', 'rb') 
-reg_xg = pickle.load(traffic_pickle) 
+xg_pickle = open('traffic.pickle', 'rb') 
+reg_xg = pickle.load(xg_pickle) 
 
 if user_data is not None:
     st.success('✅ **CSV file uploaded successfully.**')
